@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="nothaveAccount">
+            <h2>Don't have an account?</h2>
+            <p>Sign up to save all your collection.</p>
+            <button onclick="signUp()">SIGN UP</button>
+        </div>
+        <div class="HaveAccount">
+            <h2>Have an account?</h2>
+            <p>Log in to see all your collection.</p>
+            <button onclick="logIn()">LOG IN</button>
+        </div>
+    </div>
+    <div class="boxSlider">
+        <h1 class="title">SIGN UP</h1>
+        <div class="inputs">
+            <input type="text" class="fullname" placeholder="FULLNAME"><br><br>
+            <input type="email" class="email" placeholder="EMAIL"><br><br>
+            <input type="password" class="password" placeholder="PASSWORD"><br><br>
+            <button>SIGN UP</button>
+            <div class="aDiv" style="display: none;">
+                <a href="https://google.com">FORGET PASSWORD</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
